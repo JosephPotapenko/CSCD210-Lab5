@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analysis</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Number Analysis Tool</h2>
+
+    <label for="userNumber">Enter a positive number:</label>
+    <input type="number" id="userNumber" min="1">
+    <button onclick="setNumber()">Submit</button>
+
+    <h3>Options:</h3>
+    <button onclick="enterNewNumber()">Enter a new number</button>
+    <button onclick="countDigits()">Count Evens, Odds, and Zeros</button>
+    <button onclick="findPrimes()">Find Prime Numbers</button>
+    
+    <h3>Output:</h3>
+    <p id="output"></p>
+</body>
+</html>
